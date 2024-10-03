@@ -1,5 +1,6 @@
 import folium
 import webbrowser
+import pandas as pd
 
 
 class Map:
@@ -16,13 +17,21 @@ class Map:
         folium.Marker((coords)).add_to(self.my_map)
         pass
 
+def create_map(df):
+    center_coords = [4.813246876760088, -75.68723409291646]
+    map = Map(center = center_coords, zoom_start = 10)
+    for row in df.itertuples():
+        coords = row.coordenadas.split(', ')
+        map.add_marker(coords)
 
-coords = [4.813246876760088, -75.68723409291646]
-map = Map(center = coords, zoom_start = 10)
-marker_coords = (4.813246876760088, -75.68723409291646)
-map.add_marker(marker_coords)
-sorrento_coords = (4.432348824759994, -75.7331965378849)
-map.add_marker(sorrento_coords)
+    map.show_map()
 
 
-map.show_map()
+def read_tsv(path):
+    df = pd.read_csv(path, delimiter='\t')
+    return df
+
+
+if __name__ == "__main__":
+    df_coords = read_tsv('viajes.tsv')
+    create_map(df_coords)
