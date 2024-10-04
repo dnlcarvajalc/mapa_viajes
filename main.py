@@ -13,16 +13,23 @@ class Map:
         self.my_map.save("map.html")
         webbrowser.open("map.html")
 
-    def add_marker(self, coords):
-        folium.Marker((coords)).add_to(self.my_map)
+    def add_marker(self, coords, name, status):
+        if status == True:
+            color = "green"
+        else: color = "red"
+        folium.Marker(location=coords,
+                      popup=name,
+                      icon=folium.Icon(color=color))\
+                      .add_to(self.my_map)
         pass
 
 def create_map(df):
     center_coords = [4.813246876760088, -75.68723409291646]
     map = Map(center = center_coords, zoom_start = 10)
     for row in df.itertuples():
+        print(row)
         coords = row.coordenadas.split(', ')
-        map.add_marker(coords)
+        map.add_marker(coords, row.viaje, row.completado)
 
     map.show_map()
 
