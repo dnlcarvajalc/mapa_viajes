@@ -21,8 +21,8 @@ visitar el museo del oro	4.602015643689692, -74.0719841674317	TRUE
 visitar el cañon del chicamocha	6.7804070196893305, -73.05495830496574	TRUE
 hacer body rafting en el rio la miel en norcasia	5.587900988876936, -74.83776679383698	TRUE
 visitar la quinta de san pedro alejandrino	11.228238119241833, -74.1773694738636	FALSE
-visitar el salto de tequendama	4.574308430895652, -74.29361823389974	FALSE
-visitar la laguna de tota	5.529340776108213, -72.93879721159782	FALSE
+visitar el salto de tequendama	4.574308430895652, -74.29361823389974	TRUE
+visitar la laguna de tota	5.529340776108213, -72.93879721159782	TRUE
 visitar el parque arqueologico de san agustin	1.8856320179787103, -76.29425492913605	FALSE
 visitar el parque nacional natura sierra de chiribiquete	1.3733738817881915, -72.96083330990584	FALSE
 dormir en un glamping	4.968919401447224, -75.34311390015773	FALSE
@@ -42,9 +42,9 @@ ir al carnaval de negros y blancos en pasto	1.208518345253645, -77.2827936216674
 ir al carnavall de barranquilla	10.99271419452491, -74.80236729696024	FALSE
 ir al carnaval del diablo en riosucio	5.420368963665584, -75.70394872102786	FALSE
 recorrer en neumatico el rio palomino	11.253293805766004, -73.55381589895151	FALSE
-visitar la plaza de bolivar	4.5980109345083795, -74.07589485482387	FALSE
+visitar la plaza de bolivar	4.5980109345083795, -74.07589485482387	TRUE
 visita el cañon del rio quejar en mesetas meta	3.429053940701456, -74.14272493446539	FALSE
-visitar villa de leyva	5.635132657035277, -73.52680108116698	FALSE
+visitar villa de leyva	5.635132657035277, -73.52680108116698	TRUE
 hacer senderismo en el parque nacional el cocuy	6.408102016423104, -72.44472094383752	FALSE
 visitar santa fe de antioquia	6.559261552550533, -75.82735213293736	FALSE
 volar en parapente	5.79039316501772, -75.78497372975364	FALSE
@@ -104,7 +104,7 @@ Villa de Guaduas, Cundinamarca	5.065055964464231, -74.59858415703349	FALSE
 Santa Cruz de Lorica, Córdoba	9.232736740803475, -75.81799624287342	FALSE
 Santa Cruz de Mompox, Bolívar	9.23902442478571, -74.42629861688312	FALSE
 Santa Fe de Antioquia, Antioquia	6.561020428030317, -75.81802718175729	FALSE
-Villa de Leyva, Boyacá	5.638079549701124, -73.52946181016752	FALSE
+Villa de Leyva, Boyacá	5.638079549701124, -73.52946181016752	TRUE
 El Socorro, Santander	6.464321126193416, -73.26251694962917	TRUE
 participar del petronio en cali	3.4158569728897272, -76.52813909431461	FALSE
 visitar san juan de giron en santander	7.078011375211386, -73.16673515904505	TRUE
